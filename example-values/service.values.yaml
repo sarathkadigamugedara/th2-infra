@@ -16,8 +16,6 @@ rabbitmq:
   ingress:
     enabled: true
     hostName: 192.168.49.2
-    ...
-
 cassandra:
   internal: false
   host:  host.minikube.internal
