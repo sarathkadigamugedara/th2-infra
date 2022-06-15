@@ -6,7 +6,6 @@ infraMgr:
 
 
 rabbitmq:
- host: 192.168.49.2
   prometheus:
     operator:
       enabled: false
@@ -16,7 +15,7 @@ rabbitmq:
     size: 10Gi
   ingress:
     enabled: true
-    hostName:
+    hostName:192.168.49.2
 
 cassandra:
   internal: false
