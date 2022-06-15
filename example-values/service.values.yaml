@@ -6,6 +6,7 @@ infraMgr:
 
 
 rabbitmq:
+ host: 192.168.49.2
   prometheus:
     operator:
       enabled: false
@@ -19,5 +20,7 @@ rabbitmq:
 
 cassandra:
   internal: false
-  host: <cassandra-host>
+  host:  host.minikube.internal
+  cluster:
+    datacenter: datacenter1
 
