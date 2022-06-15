@@ -15,7 +15,7 @@ rabbitmq:
     size: 10Gi
   ingress:
     enabled: true
-    hostName:192.168.49.2
+    hostName: 192.168.49.2
 
 cassandra:
   internal: false
